@@ -55,6 +55,9 @@ public class LeeCode {
         return res;
     }
     public static void main(String[] args) {
-
+        String s = "fooabbsfooabb";
+        String []words = {"foo","abb"};
+        LeeCode l  = new LeeCode();
+        System.out.println(l.findSubstring(s,words));
     }
 }
